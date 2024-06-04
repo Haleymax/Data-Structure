@@ -9,7 +9,7 @@ type LinkNode struct {
 	NextNode *LinkNode
 }
 
-func main() {
+func main2() {
 	//创建一个新的节点
 	node := new(LinkNode)
 	node.Data = 2
