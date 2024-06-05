@@ -79,6 +79,6 @@ func test() {
 	fmt.Println("pop:", arrayStack.Pop())
 }
 
-func main() {
+func main2() {
 	test()
 }
