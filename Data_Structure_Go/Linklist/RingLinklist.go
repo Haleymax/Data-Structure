@@ -101,6 +101,6 @@ func linkNewTest() {
 	}
 }
 
-func main() {
+func main3() {
 	linkNewTest()
 }
