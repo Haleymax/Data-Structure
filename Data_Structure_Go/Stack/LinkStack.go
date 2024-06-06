@@ -101,6 +101,6 @@ func test3() {
 	fmt.Println("Stack size:", linkStack.Size()) // 应该输出 2
 }
 
-func main() {
+func main3() {
 	test3()
 }
