@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bb95ef2-ce7b-4226-a17d-99efddcf0f69" name="Changes" comment="用数组实现队列">
-      <change afterPath="$PROJECT_DIR$/Queue/LinkQueue.go" afterDir="false" />
+    <list default="true" id="0bb95ef2-ce7b-4226-a17d-99efddcf0f69" name="Changes" comment="配置文件">
+      <change afterPath="$PROJECT_DIR$/List/DoubleList.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,9 @@
     <MESSAGE value="用数组实现了栈" />
     <MESSAGE value="用链表实现链栈" />
     <MESSAGE value="用数组实现队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="用数组实现队列" />
+    <MESSAGE value="用链表实现队列" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
