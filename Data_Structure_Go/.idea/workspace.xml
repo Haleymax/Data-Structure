@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bb95ef2-ce7b-4226-a17d-99efddcf0f69" name="Changes" comment="配置文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/DoubleList.go" beforeDir="false" afterPath="$PROJECT_DIR$/List/DoubleList.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
