@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // golang语言自带的字典
-func main() {
+func main1() {
 	//创建一个容量为4的字典map
 	m := make(map[string]int64, 4)
 
