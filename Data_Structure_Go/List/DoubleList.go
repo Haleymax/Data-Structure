@@ -327,6 +327,6 @@ func test() {
 	fmt.Println("len", list.Len())
 }
 
-func main() {
+func main6() {
 	test()
 }
