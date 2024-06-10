@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Data_Structure_Cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Array-Debug-676120c7e30c6ca788e3.json",
+					"name" : "Array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Data_Structure_Cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Data_Structure_Cpp-Debug-754ecb2fe6251f17077a.json",
+					"name" : "Data_Structure_Cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Linklist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Linklist-Debug-df686a23ab13d553423f.json",
+					"name" : "Linklist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RingLinklist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RingLinklist-Debug-0a2e9a36d96863ff560e.json",
+					"name" : "RingLinklist",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/learn/ds/Data-Structure/Data_Structure_Cpp/cmake-build-debug",
+		"source" : "E:/learn/ds/Data-Structure/Data_Structure_Cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
