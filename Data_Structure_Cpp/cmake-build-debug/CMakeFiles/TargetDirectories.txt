@@ -1,3 +1,6 @@
-E:/learn/ds/Data_Structure_Cpp/cmake-build-debug/CMakeFiles/Data_Structure_Cpp.dir
-E:/learn/ds/Data_Structure_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/learn/ds/Data_Structure_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/learn/ds/Data-Structure/Data_Structure_Cpp/cmake-build-debug/CMakeFiles/Data_Structure_Cpp.dir
+E:/learn/ds/Data-Structure/Data_Structure_Cpp/cmake-build-debug/CMakeFiles/Array.dir
+E:/learn/ds/Data-Structure/Data_Structure_Cpp/cmake-build-debug/CMakeFiles/Linklist.dir
+E:/learn/ds/Data-Structure/Data_Structure_Cpp/cmake-build-debug/CMakeFiles/RingLinklist.dir
+E:/learn/ds/Data-Structure/Data_Structure_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/learn/ds/Data-Structure/Data_Structure_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

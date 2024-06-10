@@ -1,4 +1,4 @@
-# Install script for directory: E:/learn/ds/Data_Structure_Cpp
+# Install script for directory: E:/learn/ds/Data-Structure/Data_Structure_Cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/learn/ds/Data_Structure_Cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/learn/ds/Data-Structure/Data_Structure_Cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
