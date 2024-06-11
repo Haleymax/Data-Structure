@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bb95ef2-ce7b-4226-a17d-99efddcf0f69" name="Changes" comment="配置文件">
+    <list default="true" id="0bb95ef2-ce7b-4226-a17d-99efddcf0f69" name="Changes" comment="二叉树的实现以及遍历">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dictionary/Set.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/Set.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +34,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go Build.go build Data_Structure_Go/Dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Data_Structure_Go/Dictionary.executor&quot;: &quot;Debug&quot;,
     &quot;Go Build.go build Data_Structure_Go/Linklist.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build Data_Structure_Go/List.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build Data_Structure_Go/Queue.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build Data_Structure_Go/Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Data_Structure_Go/Tree.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
@@ -57,7 +57,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build Data_Structure_Go/Dictionary">
+  <component name="RunManager" selected="Go Build.go build Data_Structure_Go/Tree">
     <configuration name="go build Data_Structure_Go/Dictionary" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_Go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -65,15 +65,6 @@
       <package value="Data_Structure_Go/Dictionary" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/Dictionary/map.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Data_Structure_Go/Linklist" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="Data_Structure_Go/Linklist" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Linklist/RingLinklist.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build Data_Structure_Go/List" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -103,13 +94,22 @@
       <filePath value="$PROJECT_DIR$/Stack/ArrayStack.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Data_Structure_Go/Tree" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Data_Structure_Go/Tree" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Tree/Tree.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Data_Structure_Go/Tree" />
         <item itemvalue="Go Build.go build Data_Structure_Go/Dictionary" />
         <item itemvalue="Go Build.go build Data_Structure_Go/List" />
         <item itemvalue="Go Build.go build Data_Structure_Go/Queue" />
         <item itemvalue="Go Build.go build Data_Structure_Go/Stack" />
-        <item itemvalue="Go Build.go build Data_Structure_Go/Linklist" />
       </list>
     </recent_temporary>
   </component>
@@ -138,8 +138,10 @@
     <MESSAGE value="用双端链表实现队列" />
     <MESSAGE value="golang语言中自带的map" />
     <MESSAGE value="用map实现集合" />
+    <MESSAGE value="集合的各种方法的实现" />
     <MESSAGE value="配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
+    <MESSAGE value="二叉树的实现以及遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树的实现以及遍历" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
