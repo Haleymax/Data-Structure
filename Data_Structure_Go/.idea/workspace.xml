@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0bb95ef2-ce7b-4226-a17d-99efddcf0f69" name="Changes" comment="golang语言中自带的map" />
+=======
+    <list default="true" id="0bb95ef2-ce7b-4226-a17d-99efddcf0f69" name="Changes" comment="配置文件" />
+>>>>>>> 0efcf7b27efbe769bcf8fdb5f97e93a6436c2325
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +21,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://D:/go/go1.22.3.windows-386/go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -32,11 +36,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go Build.go build Data_Structure_Go/Dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Data_Structure_Go/Dictionary.executor&quot;: &quot;Debug&quot;,
     &quot;Go Build.go build Data_Structure_Go/Linklist.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build Data_Structure_Go/List.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build Data_Structure_Go/Queue.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build Data_Structure_Go/Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Data_Structure_Go/Tree.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
@@ -46,7 +51,7 @@
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/huang&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/EDY&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -54,7 +59,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build Data_Structure_Go/Dictionary">
+  <component name="RunManager" selected="Go Build.go build Data_Structure_Go/Tree">
     <configuration name="go build Data_Structure_Go/Dictionary" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_Go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,15 +67,6 @@
       <package value="Data_Structure_Go/Dictionary" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/Dictionary/map.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Data_Structure_Go/Linklist" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="Data_Structure_Go/Linklist" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Linklist/RingLinklist.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build Data_Structure_Go/List" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -100,21 +96,30 @@
       <filePath value="$PROJECT_DIR$/Stack/ArrayStack.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Data_Structure_Go/Tree" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Data_Structure_Go/Tree" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Tree/Tree.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Data_Structure_Go/Tree" />
         <item itemvalue="Go Build.go build Data_Structure_Go/Dictionary" />
         <item itemvalue="Go Build.go build Data_Structure_Go/List" />
         <item itemvalue="Go Build.go build Data_Structure_Go/Queue" />
         <item itemvalue="Go Build.go build Data_Structure_Go/Stack" />
-        <item itemvalue="Go Build.go build Data_Structure_Go/Linklist" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-33c477a475b1-b97fc8a1e17c-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.14494.238" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-GO-241.14494.238" />
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.15989.157" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-GO-241.15989.157" />
       </set>
     </attachedChunks>
   </component>
@@ -132,10 +137,13 @@
     <MESSAGE value="用链表实现队列" />
     <MESSAGE value="双端列表的实现" />
     <MESSAGE value="用双端列表实现列表" />
-    <MESSAGE value="配置文件" />
     <MESSAGE value="用双端链表实现队列" />
     <MESSAGE value="golang语言中自带的map" />
-    <option name="LAST_COMMIT_MESSAGE" value="golang语言中自带的map" />
+    <MESSAGE value="用map实现集合" />
+    <MESSAGE value="集合的各种方法的实现" />
+    <MESSAGE value="二叉树的实现以及遍历" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
