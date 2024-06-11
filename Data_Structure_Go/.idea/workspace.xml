@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bb95ef2-ce7b-4226-a17d-99efddcf0f69" name="Changes" comment="二叉树的实现以及遍历">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0bb95ef2-ce7b-4226-a17d-99efddcf0f69" name="Changes" comment="配置文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,9 +137,9 @@
     <MESSAGE value="golang语言中自带的map" />
     <MESSAGE value="用map实现集合" />
     <MESSAGE value="集合的各种方法的实现" />
-    <MESSAGE value="配置文件" />
     <MESSAGE value="二叉树的实现以及遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树的实现以及遍历" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
