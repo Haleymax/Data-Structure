@@ -2,14 +2,8 @@
 4	575	7398169795755154	CMakeFiles/SeStack.dir/Stack/SeStack.cpp.obj	6d16f40d8c248858
 575	742	7398169797393660	SeStack.exe	60b48140ea18b350
 0	449	7398186924594146	CMakeFiles/LinkStack.dir/Stack/LinkStack.cpp.obj	8f0e3347c8b203a6
-450	702	7398186926853294	LinkStack.exe	eb49faf155729571
-1	644	7399101996111955	CMakeFiles/ArrayQueue.dir/Queue/ArrayQueue.cpp.obj	59ae4e0e9fdc9e5b
-644	868	7399101998306891	ArrayQueue.exe	1ea472e7474187d7
-2	287	7399102161449667	CMakeFiles/ArrayQueue.dir/Queue/ArrayQueue.cpp.obj	59ae4e0e9fdc9e5b
-288	398	7399102162536034	ArrayQueue.exe	1ea472e7474187d7
-3	289	7399102386825858	CMakeFiles/ArrayQueue.dir/Queue/ArrayQueue.cpp.obj	59ae4e0e9fdc9e5b
-289	398	7399102387882234	ArrayQueue.exe	1ea472e7474187d7
-2	280	7399102546814494	CMakeFiles/ArrayQueue.dir/Queue/ArrayQueue.cpp.obj	59ae4e0e9fdc9e5b
-281	400	7399102547980588	ArrayQueue.exe	1ea472e7474187d7
 3	289	7399103164604663	CMakeFiles/ArrayQueue.dir/Queue/ArrayQueue.cpp.obj	59ae4e0e9fdc9e5b
+450	702	7398186926853294	LinkStack.exe	eb49faf155729571
 289	397	7399103165649930	ArrayQueue.exe	1ea472e7474187d7
+0	294	7399116518469963	CMakeFiles/LinkQueue.dir/Queue/LinkQueue.cpp.obj	6b42235929f97b56
+294	423	7399116519715802	LinkQueue.exe	4b0418ce6dafb19

@@ -271,6 +271,39 @@ build ArrayQueue.exe: CXX_EXECUTABLE_LINKER__ArrayQueue_Debug CMakeFiles/ArrayQu
   TARGET_IMPLIB = libArrayQueue.dll.a
   TARGET_PDB = ArrayQueue.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkQueue
+
+
+#############################################
+# Order-only phony target for LinkQueue
+
+build cmake_object_order_depends_target_LinkQueue: phony || CMakeFiles/LinkQueue.dir
+
+build CMakeFiles/LinkQueue.dir/Queue/LinkQueue.cpp.obj: CXX_COMPILER__LinkQueue_unscanned_Debug E$:/learn/ds/Data-Structure/Data_Structure_Cpp/Queue/LinkQueue.cpp || cmake_object_order_depends_target_LinkQueue
+  DEP_FILE = CMakeFiles\LinkQueue.dir\Queue\LinkQueue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LinkQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinkQueue.dir\Queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkQueue
+
+
+#############################################
+# Link the executable LinkQueue.exe
+
+build LinkQueue.exe: CXX_EXECUTABLE_LINKER__LinkQueue_Debug CMakeFiles/LinkQueue.dir/Queue/LinkQueue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LinkQueue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LinkQueue.exe
+  TARGET_IMPLIB = libLinkQueue.dll.a
+  TARGET_PDB = LinkQueue.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -303,6 +336,8 @@ build ArrayQueue: phony ArrayQueue.exe
 
 build Data_Structure_Cpp: phony Data_Structure_Cpp.exe
 
+build LinkQueue: phony LinkQueue.exe
+
 build LinkStack: phony LinkStack.exe
 
 build Linklist: phony Linklist.exe
@@ -319,7 +354,7 @@ build SeStack: phony SeStack.exe
 #############################################
 # Folder: E:/learn/ds/Data-Structure/Data_Structure_Cpp/cmake-build-debug
 
-build all: phony Data_Structure_Cpp.exe Array.exe Linklist.exe RingLinklist.exe SeStack.exe LinkStack.exe ArrayQueue.exe
+build all: phony Data_Structure_Cpp.exe Array.exe Linklist.exe RingLinklist.exe SeStack.exe LinkStack.exe ArrayQueue.exe LinkQueue.exe
 
 # =============================================================================
 # Built-in targets
