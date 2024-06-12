@@ -39,7 +39,7 @@ func (g *Graph) PrintMatrix() {
 	}
 }
 
-func main() {
+func main1() {
 	// 创建一个具有5个顶点的图
 	var graph Graph
 	graph.NewGraph(5)
