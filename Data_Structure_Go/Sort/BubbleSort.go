@@ -30,7 +30,9 @@ func BubbleSort(list []int) []int {
 
 // 测试
 func test01() {
+	fmt.Println("冒泡排序的结果如下所示：")
 	list := []int{5, 9, 1, 6, 8, 6, 12, 18, 16, 22}
 	list = BubbleSort(list)
 	fmt.Println(list)
+	fmt.Println("--------------------------------")
 }
