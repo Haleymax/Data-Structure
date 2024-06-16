@@ -36,7 +36,7 @@ public:
     void BFS(int start);
 
     //深度优先搜索
-    void DFS();
+    void DFS(int start);
 };
 
 
