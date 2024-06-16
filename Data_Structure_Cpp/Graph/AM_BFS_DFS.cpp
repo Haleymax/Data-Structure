@@ -40,7 +40,7 @@ void Graph::DFS(int start) {
 
         for (int i = 0; i < MaxSize; ++i) {
             int neighbor = arc[v][i];
-            if (!read[neighbor]){
+            if (!read[neighbor] && neighbor == 1){
                 s.push(neighbor);
                 read[neighbor] = true;
             }
