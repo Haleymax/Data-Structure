@@ -6,26 +6,26 @@ Data_Structure_Go
 │      
 ├─Graph
 │      AdjacencyMatrix.go      邻接矩阵的实现
-│      Adj_BFS.go
-│      Adj_DFS.go
-│      LinkGraph.go
-│      List_BFS.go
-│      List_DFS.go
+│      Adj_BFS.go          邻接矩阵的广度优先搜索
+│      Adj_DFS.go         邻接矩阵的深度优先搜索
+│      LinkGraph.go     邻接表实现的图
+│      List_BFS.go         邻接表的广度优先搜索
+│      List_DFS.go         邻接表的深度优先搜索
 │      
 ├─Linklist
-│      Array.go
-│      Linklist.go
-│      RingLinklist.go
+│      Array.go              golang中的可变长静态线性表
+│      Linklist.go           单链表
+│      RingLinklist.go    循环链表
 │      
 ├─List
-│      DoubleList.go
+│      DoubleList.go    基于双链表实现的list
 │      
 ├─Queue
-│      ArrayQueue.go
-│      LinkQueue.go
+│      ArrayQueue.go    基于静态数组实现的队列
+│      LinkQueue.go      基于链表实现的队列
 │      
 ├─Sort
-│      BubbleSort.go
+│      BubbleSort.go     冒泡排序
 │      InsertSort.go
 │      MergeSort_up.go
 │      SelectSort.go
