@@ -15,5 +15,8 @@ func main() {
 	//test04()
 
 	//归并排序的测试
-	test05()
+	//test05()
+
+	//堆排序
+	HeapSort()
 }
