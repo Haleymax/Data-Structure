@@ -18,5 +18,8 @@ func main() {
 	//test05()
 
 	//堆排序
-	HeapSort()
+	//HeapSort()
+
+	//快排
+	QuickSorttest()
 }
