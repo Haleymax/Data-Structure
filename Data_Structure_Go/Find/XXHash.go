@@ -9,6 +9,8 @@ import (
 func XXHash(key []byte) uint64 {
 	h := xxhash.New64()
 	h.Write(key)
+
+	//返回哈希值，将哈希值与表长取余便可以得到位置
 	return h.Sum64()
 }
 
