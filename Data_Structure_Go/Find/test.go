@@ -6,5 +6,8 @@ func main() {
 	//xxHash()
 
 	//哈希表的添加和删除
-	Hash()
+	//Hash()
+
+	//二分查找
+	binarySearch()
 }
