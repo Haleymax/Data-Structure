@@ -5,103 +5,124 @@
 #include "iostream"
 #include "vector"
 
-//å®šä¹‰å“ˆå¸Œè¡¨å¤§å°
+//¶¨Òå¹şÏ£±í´óĞ¡
 const int TABLE_SIZE = 128;
 
 using namespace std;
 
-//å“ˆå¸Œé›†åˆç±»
+//¹şÏ£¼¯ºÏÀà
 class MyHashSet{
 private:
 
-    //å“ˆå¸Œè¡¨
+    //¹şÏ£±í
     vector<int> table;
 
-    //è®°å½•å…ƒç´ æ•°é‡
+    //¼ÇÂ¼ÔªËØÊıÁ¿
     int size;
 
-    //æ±‚å…ƒç´ ç´¢å¼•
+    //ÇóÔªËØË÷Òı
     int hashFunction(int key){
         return key % TABLE_SIZE;
     }
 
 public:
-    //æ„é€ å‡½æ•°ï¼Œåˆå§‹åŒ–å“ˆå¸Œè¡¨
+    //¹¹Ôìº¯Êı£¬³õÊ¼»¯¹şÏ£±í
     MyHashSet() : table(TABLE_SIZE,-1) , size(0){}
 
-    //æ’å…¥å…ƒç´ 
+    //²åÈëÔªËØ
     void insert(int key);
 
-    //åˆ é™¤å…ƒç´ 
+    //É¾³ıÔªËØ
     void remove(int key);
 
-    //æŸ¥æ‰¾å…ƒç´ æ˜¯å¦å­˜åœ¨
+    //²éÕÒÔªËØÊÇ·ñ´æÔÚ
     bool contains(int key);
 
-    //è·å–å½“å‰é›†åˆçš„å¤§å°
+    //»ñÈ¡µ±Ç°¼¯ºÏµÄ´óĞ¡
     int getSize() const;
 };
 
-//æ’å…¥å…ƒç´ 
+//²åÈëÔªËØ
 void MyHashSet::insert(int key) {
-    int hash = hashFunction(key);   //è·å–ä½ç½®ç´¢å¼•
-    int originalHash = hash;   //è®°å½•è®¡ç®—å‡ºçš„ä½ç½®
+    int hash = hashFunction(key);   //»ñÈ¡Î»ÖÃË÷Òı
+    int originalHash = hash;   //¼ÇÂ¼¼ÆËã³öµÄÎ»ÖÃ
 
-    //æ£€æŸ¥å†²çªï¼Œé‡‡ç”¨çº¿æ€§æ¢æµ‹å¤„ç†å†²çª
+    //¼ì²é³åÍ»£¬²ÉÓÃÏßĞÔÌ½²â´¦Àí³åÍ»
     while (table[hash] != -1 && table[hash] != key){
-        hash = (hash + 1) % TABLE_SIZE;  //å‘ç”Ÿå†²çªå°±å¾€åç§»åŠ¨ä¸€ä½
+        hash = (hash + 1) % TABLE_SIZE;  //·¢Éú³åÍ»¾ÍÍùºóÒÆ¶¯Ò»Î»
 
-        //é‡‡ç”¨ä¸å¯æ‰©å±•çš„å“ˆå¸Œè¡¨ï¼Œå¦‚æœæ»¡äº†å°±ä¸èƒ½å¤Ÿæ’å…¥äº†
+        //²ÉÓÃ²»¿ÉÀ©Õ¹µÄ¹şÏ£±í£¬Èç¹ûÂúÁË¾Í²»ÄÜ¹»²åÈëÁË
         if (hash == originalHash){
-            cout << "å“ˆå¸Œè¡¨ä»¥æ»¡ï¼Œæ— æ³•æ’å…¥æ–°å…ƒç´ " << endl;
+            cout << "¹şÏ£±íÒÔÂú£¬ÎŞ·¨²åÈëĞÂÔªËØ" << endl;
             return;
         }
     }
 
-    //å¦‚æœæ‰¾åˆ°ç©ºä½ç½®å°±å°†å…ƒç´ æ’å…¥
+    //Èç¹ûÕÒµ½¿ÕÎ»ÖÃ¾Í½«ÔªËØ²åÈë
     if (table[hash] == -1){
         table[hash] = key;
         size++;
     }
 }
 
-//åˆ é™¤å…ƒç´ 
+//É¾³ıÔªËØ
 void MyHashSet::remove(int key) {
     int hash = hashFunction(key);
     int orignalHash = hash;
 
-    //çº¿æ€§æ¢æµ‹æŸ¥æ‰¾å…ƒç´ 
+    //ÏßĞÔÌ½²â²éÕÒÔªËØ
     while (table[hash] != -1){
         if (table[hash] == key){
-            //æ‰¾åˆ°å…ƒç´ ï¼Œåˆ é™¤
+            //ÕÒµ½ÔªËØ£¬É¾³ı
             table[hash] = -1;
             size--;
             return;
         }
         hash = (hash + 1) % TABLE_SIZE;
 
-        //å¦‚æœæ¢æµ‹å›åˆ°åŸæ¥çš„ä½ç½®ä»£è¡¨æ•´ä¸ªè¡¨ä»¥åŠæ»¡äº†ä»¥åŠæ²¡æœ‰è¿™ä¸ªå…ƒç´ 
+        //Èç¹ûÌ½²â»Øµ½Ô­À´µÄÎ»ÖÃ´ú±íÕû¸ö±íÒÔ¼°ÂúÁËÒÔ¼°Ã»ÓĞÕâ¸öÔªËØ
         if (hash == orignalHash)
             return;
     }
 }
 
-//æŸ¥æ‰¾å…ƒç´ æ˜¯å¦å­˜åœ¨
+//²éÕÒÔªËØÊÇ·ñ´æÔÚ
 bool MyHashSet::contains(int key) {
     int hash = hashFunction(key);
     int originalHash = hash;
 
-    //çº¿æ€§æ¢æµ‹æ³•
+    //ÏßĞÔÌ½²â·¨
     while (table[hash] != -1){
         if (table[hash] == key)
             return true;
 
         hash = (hash + 1) % TABLE_SIZE;
 
-        //å¦‚æœæ¢æµ‹å›åŸæ¥ä½ç½®è¡¨ç¤ºä¸å­˜åœ¨
+        //Èç¹ûÌ½²â»ØÔ­À´Î»ÖÃ±íÊ¾²»´æÔÚ
         if (hash == originalHash)
             return false;
     }
 
     return false;
+}
+
+int MyHashSet::getSize() const {
+    return size;
+}
+
+// ²âÊÔ×Ô¶¨Òå¹şÏ£¼¯ºÏ
+int main() {
+    MyHashSet mySet;
+    mySet.insert(1);
+    mySet.insert(2);
+    mySet.insert(3);
+
+    std::cout << "¼¯ºÏÖĞÊÇ·ñ°üº¬2: " << (mySet.contains(2) ? "ÊÇ" : "·ñ") << std::endl;
+    std::cout << "¼¯ºÏ´óĞ¡: " << mySet.getSize() << std::endl;
+
+    mySet.remove(2);
+    std::cout << "É¾³ı2ºó£¬¼¯ºÏÖĞÊÇ·ñ°üº¬2: " << (mySet.contains(2) ? "ÊÇ" : "·ñ") << std::endl;
+    std::cout << "¼¯ºÏ´óĞ¡: " << mySet.getSize() << std::endl;
+
+    return 0;
 }
